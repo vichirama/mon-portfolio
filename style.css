@@ -1,35 +1,58 @@
+/* Style général */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
+  background-color: #f9f9f9;
   color: #333;
 }
 
+/* En-tête */
 header {
-  background: #222;
+  background-color: #222;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+header h1 {
+  margin: 0;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
+/* Menu de navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav ul li a {
-  color: white;
   text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
+
+/* Section principale */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+main h2 {
+  color: #222;
+}
+
+/* Pied de page */
 footer {
-  background: #222;
+  background-color: #222;
   color: white;
   text-align: center;
   padding: 10px;
